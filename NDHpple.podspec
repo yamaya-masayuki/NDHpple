@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'NDHpple/NDHpple/*'
   spec.library      = 'xml2'
   spec.xcconfig     = {
-    'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'
+    'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
     'SWIFT_OBJC_BRIDGING_HEADER' => '${PODS_ROOT}/Headers/NDHpple/NDHpple-Bridging-Header.h'
   }
   spec.platform     = :ios, '8.0'
